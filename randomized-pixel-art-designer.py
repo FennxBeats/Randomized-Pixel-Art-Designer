@@ -3,6 +3,7 @@ import random
 
 t = turtle.Turtle()
 wn = turtle.Screen()
+wn.title("Randomized Pixel Art Designer")
 t.speed("fastest")  # Use a string for predefined speed
 
 def pixel(x, y):
